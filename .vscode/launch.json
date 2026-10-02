@@ -1,0 +1,37 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        // Use Ctrl+Space to trigger IntelliSense and Get assistance on the supported configurations for AL development.
+   
+        {
+            "name": "ERPG_HL_MaaIkkeSlettes_ERPINTERNT",
+            "request": "launch",
+            "type": "al",
+            "tenant": "27555c9f-c812-4a7c-81d9-bbe6424bbfba",
+            "environmentType": "Sandbox",
+            "environmentName": "ERPG_HL_MaaIkkeSlettes",
+            "startupObjectId": 9022, //22, //9022
+            "startupObjectType": "Page",
+            "breakOnError": "All",
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "schemaUpdateMode": "Synchronize"
+        },
+        {
+            "name": "ERPG_CopyProd_HRE_20260930",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "Sandbox",
+            "environmentName": "ERPG_CopyProd_HRE_20260930",
+            "startupObjectId": 65002,
+            "startupObjectType": "Page",
+            "breakOnError": true,
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "tenant": "8cb32dde-b70a-435a-a3c9-501671d5ce4f",
+            "schemaUpdateMode": "ForceSync",           
+        }
+    ]
+}
