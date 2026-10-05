@@ -1,7 +1,7 @@
-page 65000 "ERP Excel import Setup"
+page 65000 "ERPG Excel import Setup"
 {
     PageType = Card;
-    SourceTable = "ERP Excel Import Setup";
+    SourceTable = "ERPG Excel Import Setup";
     Caption = 'Excel import, Setup', Comment = 'DAN="Excel import, opsætning"';
     UsageCategory = Tasks;
 
@@ -31,7 +31,7 @@ page 65000 "ERP Excel import Setup"
                     ApplicationArea = All;
                     ToolTip = 'Specify if the file contains colunms headers', Comment = 'DAN="Angiver om der er kolonne overskrifter i filen"';
                 }
-                field(ImportToTable;Rec.ImportToTable) {ApplicationArea = All; Visible = true;}
+                field(ImportToTable; Rec.ImportToTable) { ApplicationArea = All; Visible = true; }
                 Field(TableNo; Rec.TableNo)
                 {
                     ApplicationArea = All;
@@ -77,9 +77,15 @@ page 65000 "ERP Excel import Setup"
                     ToolTip = 'Specify which dato to use in the journal, in import', Comment = 'DAN="Angiver bogføringsdato der benyttes i kladde, ved import"';
                 }
             }
-            part("Excel import lines Gen.Jnlline"; "ERP Excelimp.lines Setupline")
+            part("Excel import lines Gen.Jnlline"; "ERPG Excelimp.lines Setupline")
             {
                 Caption = 'Lines / Column Specify', Comment = 'DAN="Linjer / kolonnespecifikation"';
+                ApplicationArea = all;
+                SubPageLink = Code = Field(Code);
+            }
+            part("Excel import Skip Row"; ERPG_ExcelImport_SkipRow)
+            {
+                Caption = 'Skip Row', Comment = 'DAN="Spring over rækker"';
                 ApplicationArea = all;
                 SubPageLink = Code = Field(Code);
             }
@@ -145,7 +151,7 @@ page 65000 "ERP Excel import Setup"
 
                     trigger OnAction()
                     var
-                        RptImport: Report "ERP Import ExcelFile";
+                        RptImport: Report "ERPG Import ExcelFile";
                     begin
                         RptImport.SetExcelSetup(Rec.Code);
                         RptImport.UseRequestPage(true);

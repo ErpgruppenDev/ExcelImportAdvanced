@@ -3,593 +3,611 @@
   <file datatype="xml" source-language="en-US" target-language="da-DK" original="ExcelImportAdvanced.g.xlf">
     <body>
       <group id="body">
-        <trans-unit id="Table 2978635454 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 2989514487 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Excel Import, Setup</source>
-          <target state="needs-review-translation">Excel import, opsætning</target>
+          <target state="needs-review-translation">Excel Import opsætning</target>
           <note from="Developer" annotates="general" priority="2">DAN="Excel Import, finanskladde"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table ERP Excel Import Setup - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ERPG Excel Import Setup - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 2978635454 - Field 3004954119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 2989514487 - Field 3004954119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Code</source>
           <target state="needs-review-translation">Kode</target>
           <note from="Developer" annotates="general" priority="2">DAN="Kode"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table ERP Excel Import Setup - Field Code - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ERPG Excel Import Setup - Field Code - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 2978635454 - Field 914301485 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 2989514487 - Field 914301485 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Columns header in file</source>
-          <target state="needs-review-translation">Kolonneoverskrift i fil</target>
+          <target state="needs-review-translation">Kolonneoverskift i fil</target>
           <note from="Developer" annotates="general" priority="2">DAN="Kolonneoverskifter i fil"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table ERP Excel Import Setup - Field Columns header in file - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ERPG Excel Import Setup - Field Columns header in file - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 2978635454 - Field 98207365 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 2989514487 - Field 98207365 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Created by</source>
           <target state="needs-review-translation">Oprettet af</target>
           <note from="Developer" annotates="general" priority="2">DAN="Oprettet af"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table ERP Excel Import Setup - Field Created by - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ERPG Excel Import Setup - Field Created by - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 2978635454 - Field 502894480 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 2989514487 - Field 502894480 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Created date</source>
-          <target state="needs-review-translation">Oprettet dato</target>
+          <target state="needs-review-translation">Oprettet den</target>
           <note from="Developer" annotates="general" priority="2">DAN="Oprettet den"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table ERP Excel Import Setup - Field Created date - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ERPG Excel Import Setup - Field Created date - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 2978635454 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 2989514487 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Description</source>
           <target state="needs-review-translation">Beskrivelse</target>
           <note from="Developer" annotates="general" priority="2">DAN="Beskrivelse"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table ERP Excel Import Setup - Field Description - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ERPG Excel Import Setup - Field Description - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 2978635454 - Field 3016508349 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Gen. Journal Template</source>
-          <target state="needs-review-translation">Finanskladdetype</target>
-          <note from="Developer" annotates="general" priority="2">DAN="Kladdetype"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table ERP Excel Import Setup - Field Gen. Journal Template - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 2978635454 - Field 2530485380 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 2989514487 - Field 2530485380 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>ImportToTable</source>
-          <target state="needs-review-translation">Importer til kladde</target>
+          <target state="needs-review-translation">Import til kladde</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table ERP Excel Import Setup - Field ImportToTable - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ERPG Excel Import Setup - Field ImportToTable - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 2978635454 - Field 1830915383 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 2989514487 - Field 1830915383 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Journal Batch</source>
           <target state="needs-review-translation">Kladdenavn</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table ERP Excel Import Setup - Field JournalBatch - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ERPG Excel Import Setup - Field JournalBatch - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 2978635454 - Field 1972515819 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 2989514487 - Field 1972515819 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Journal Template</source>
           <target state="needs-review-translation">Kladdetype</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table ERP Excel Import Setup - Field JournalTemplate - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ERPG Excel Import Setup - Field JournalTemplate - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 2978635454 - Field 3947465524 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 2989514487 - Field 3947465524 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Last modified by</source>
-          <target state="needs-review-translation">Sidst ændret af</target>
+          <target state="needs-review-translation">Sidste redigeret af</target>
           <note from="Developer" annotates="general" priority="2">DAN="Rettet af"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table ERP Excel Import Setup - Field Last modified by - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ERPG Excel Import Setup - Field Last modified by - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 2978635454 - Field 3980052081 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 2989514487 - Field 3980052081 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Last modified date</source>
-          <target state="needs-review-translation">Sidst ændret dato</target>
+          <target state="needs-review-translation">Sidst redigeret den</target>
           <note from="Developer" annotates="general" priority="2">DAN="Rettet den"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table ERP Excel Import Setup - Field Last modified date - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ERPG Excel Import Setup - Field Last modified date - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 2978635454 - Field 1963025173 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 2989514487 - Field 1963025173 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>No. of Columns</source>
           <target state="needs-review-translation">Antal kolonner</target>
           <note from="Developer" annotates="general" priority="2">DAN="Antal kolonner"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table ERP Excel Import Setup - Field No. of Columns - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ERPG Excel Import Setup - Field No. of Columns - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 2978635454 - Field 917479179 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 2989514487 - Field 917479179 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Tablename</source>
           <target state="needs-review-translation">Tabelnavn</target>
           <note from="Developer" annotates="general" priority="2">DAN="Tabelnavn"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table ERP Excel Import Setup - Field Tablename - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ERPG Excel Import Setup - Field Tablename - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 2978635454 - Field 103915345 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 2989514487 - Field 103915345 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>TabelNo</source>
-          <target state="needs-review-translation">Tablenr.</target>
+          <target state="needs-review-translation">Tabel nr.</target>
           <note from="Developer" annotates="general" priority="2">DAN="Tabel nr."</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table ERP Excel Import Setup - Field TableNo - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ERPG Excel Import Setup - Field TableNo - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 2978635454 - Field 1132883513 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 2989514487 - Field 1132883513 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Use Postingdate</source>
-          <target state="needs-review-translation">Brug Bogføringsdato</target>
+          <target state="needs-review-translation">Brug bogføringsdato</target>
           <note from="Developer" annotates="general" priority="2">DAN="Bogføringsdato i kladde"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table ERP Excel Import Setup - Field Use Postingdate - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ERPG Excel Import Setup - Field Use Postingdate - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 3282578533 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 1668208120 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Excel Import SetupLine</source>
-          <target state="needs-review-translation">Excel Import Opsætningslinje</target>
+          <target state="needs-review-translation">Linjer</target>
           <note from="Developer" annotates="general" priority="2">DAN="Excel Import linjer"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table ERP ExcelImport_SetupLine - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ERPG ExcelImport_SetupLine - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 3282578533 - Field 3004954119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 1668208120 - Field 3004954119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Code</source>
           <target state="needs-review-translation">Kode</target>
           <note from="Developer" annotates="general" priority="2">DAN="Kode"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table ERP ExcelImport_SetupLine - Field Code - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ERPG ExcelImport_SetupLine - Field Code - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 3282578533 - Field 1370214738 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 1668208120 - Field 1370214738 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Column</source>
-          <target state="needs-review-translation">Kolonne</target>
+          <target state="needs-review-translation">kolonne</target>
           <note from="Developer" annotates="general" priority="2">DAN="Kolonne"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table ERP ExcelImport_SetupLine - Field Column - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ERPG ExcelImport_SetupLine - Field Column - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 3282578533 - Field 98207365 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 1668208120 - Field 98207365 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Created by</source>
           <target state="needs-review-translation">Oprettet af</target>
           <note from="Developer" annotates="general" priority="2">DAN="Oprettet af"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table ERP ExcelImport_SetupLine - Field Created by - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ERPG ExcelImport_SetupLine - Field Created by - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 3282578533 - Field 502894480 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 1668208120 - Field 502894480 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Created date</source>
-          <target state="needs-review-translation">Oprettet dato</target>
+          <target state="needs-review-translation">Oprettet den</target>
           <note from="Developer" annotates="general" priority="2">DAN="Oprettet den"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table ERP ExcelImport_SetupLine - Field Created date - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ERPG ExcelImport_SetupLine - Field Created date - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 3282578533 - Field 2913739292 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 1668208120 - Field 2913739292 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Default Value</source>
           <target state="needs-review-translation">Standardværdi</target>
           <note from="Developer" annotates="general" priority="2">DAN="Standardværdi"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table ERP ExcelImport_SetupLine - Field Default Value - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ERPG ExcelImport_SetupLine - Field Default Value - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 3282578533 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 1668208120 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Description</source>
           <target state="needs-review-translation">Beskrivelse</target>
           <note from="Developer" annotates="general" priority="2">DAN="Beskrivele"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table ERP ExcelImport_SetupLine - Field Description - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ERPG ExcelImport_SetupLine - Field Description - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 3282578533 - Field 3905881183 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 1668208120 - Field 3905881183 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Fieldname</source>
           <target state="needs-review-translation">Feltnavn</target>
           <note from="Developer" annotates="general" priority="2">DAN="Feltnavn"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table ERP ExcelImport_SetupLine - Field Fieldname - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ERPG ExcelImport_SetupLine - Field Fieldname - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 3282578533 - Field 2547700717 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 1668208120 - Field 2547700717 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>FieldNo</source>
-          <target state="needs-review-translation">Feltnr</target>
+          <target state="needs-review-translation">Feltnr.</target>
           <note from="Developer" annotates="general" priority="2">DAN="Feltnr."</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table ERP ExcelImport_SetupLine - Field FieldNo - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ERPG ExcelImport_SetupLine - Field FieldNo - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 3282578533 - Field 3947465524 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 1668208120 - Field 3947465524 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Last modified by</source>
-          <target state="needs-review-translation">Sidst ændret af</target>
+          <target state="needs-review-translation">sidst redigeret af</target>
           <note from="Developer" annotates="general" priority="2">DAN="Rettet af"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table ERP ExcelImport_SetupLine - Field Last modified by - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ERPG ExcelImport_SetupLine - Field Last modified by - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 3282578533 - Field 3980052081 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 1668208120 - Field 3980052081 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Last modified date</source>
-          <target state="needs-review-translation">Sidst ændret dato</target>
+          <target state="needs-review-translation">Sidst redigeret den</target>
           <note from="Developer" annotates="general" priority="2">DAN="Rettet den"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table ERP ExcelImport_SetupLine - Field Last modified date - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ERPG ExcelImport_SetupLine - Field Last modified date - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 3282578533 - Field 1165969121 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 1668208120 - Field 1165969121 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>LineNo</source>
-          <target state="needs-review-translation">Linjenr</target>
+          <target state="needs-review-translation">Linjenr.</target>
           <note from="Developer" annotates="general" priority="2">DAN="Linjenr."</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table ERP ExcelImport_SetupLine - Field LineNo - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ERPG ExcelImport_SetupLine - Field LineNo - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 3282578533 - Field 253442157 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 1668208120 - Field 253442157 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Reverse sign</source>
           <target state="needs-review-translation">Omvendt fortegn</target>
           <note from="Developer" annotates="general" priority="2">DAN="Vend fortegn"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table ERP ExcelImport_SetupLine - Field ReverseSign - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ERPG ExcelImport_SetupLine - Field ReverseSign - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 3282578533 - Field 1847889641 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 1668208120 - Field 1847889641 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>TabelNo</source>
-          <target state="needs-review-translation">TabelNr</target>
+          <target state="needs-review-translation">Tabel nr.</target>
           <note from="Developer" annotates="general" priority="2">DAN="Tabelnr."</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table ERP ExcelImport_SetupLine - Field TabelNo - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ERPG ExcelImport_SetupLine - Field TabelNo - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 3282578533 - Field 917479179 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 1668208120 - Field 917479179 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Tablename</source>
-          <target state="needs-review-translation">Tabelnavn</target>
+          <target state="needs-review-translation">Tabel navn</target>
           <note from="Developer" annotates="general" priority="2">DAN="Tabelnavn"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table ERP ExcelImport_SetupLine - Field Tablename - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ERPG ExcelImport_SetupLine - Field Tablename - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 3282578533 - Field 3523059006 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Value Not In Use</source>
-          <target state="needs-review-translation">Værdi skal ikke bruges</target>
-          <note from="Developer" annotates="general" priority="2">DAN="Værdi ikke i brug"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table ERP ExcelImport_SetupLine - Field ValueNotInUse - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 3282578533 - Field 3001621813 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 1668208120 - Field 3001621813 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Value is Mandatory</source>
-          <target state="needs-review-translation">Værdi skal være udfyldt</target>
+          <target state="needs-review-translation">Værdi er obligatorisk</target>
           <note from="Developer" annotates="general" priority="2">DAN="Værdi er Obligatorisk"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table ERP ExcelImport_SetupLine - Field Value_Mandatory - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ERPG ExcelImport_SetupLine - Field Value_Mandatory - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 1966042782 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 2927067571 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Excel_SkipRow</source>
+          <target state="needs-review-translation">Spring række over</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ERPG_ExcelImport_SkipRow - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2927067571 - Field 3004954119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code</source>
+          <target state="needs-review-translation">Kode</target>
+          <note from="Developer" annotates="general" priority="2">DAN="Kode"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ERPG_ExcelImport_SkipRow - Field Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2927067571 - Field 1431606870 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Skip Row No</source>
+          <target state="needs-review-translation">Spring række nr. over</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ERPG_ExcelImport_SkipRow - Field Skip Row No - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 632047767 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Excel import, Setup</source>
-          <target state="needs-review-translation">Excel import, opsætning</target>
+          <target state="needs-review-translation">Excel Import opsætning</target>
           <note from="Developer" annotates="general" priority="2">DAN="Excel import, opsætning"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ERP Excel import Setup - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ERPG Excel import Setup - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 1966042782 - Control 2840519613 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 632047767 - Control 2840519613 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Lines / Column Specify</source>
-          <target state="needs-review-translation">Linjer / Kolonne Angiv</target>
+          <target state="needs-review-translation">Linjer / Kolonne angiv</target>
           <note from="Developer" annotates="general" priority="2">DAN="Linjer / kolonnespecifikation"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ERP Excel import Setup - Control Excel import lines Gen.Jnlline - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ERPG Excel import Setup - Control Excel import lines Gen.Jnlline - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 1966042782 - Control 3004954119 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 632047767 - Control 1852531955 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Skip Row</source>
+          <target state="needs-review-translation">Spring række over</target>
+          <note from="Developer" annotates="general" priority="2">DAN="Spring over rækker"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ERPG Excel import Setup - Control Excel import Skip Row - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 632047767 - Control 3004954119 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specify code</source>
-          <target state="needs-review-translation">Angiv kode</target>
+          <target state="needs-review-translation">Angiver koden</target>
           <note from="Developer" annotates="general" priority="2">DAN="Angiver koden"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ERP Excel import Setup - Control Code - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ERPG Excel import Setup - Control Code - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 1966042782 - Control 914301485 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 632047767 - Control 914301485 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specify if the file contains colunms headers</source>
-          <target state="needs-review-translation">Angiv om filen indeholder kolonneoverskrifter</target>
+          <target state="needs-review-translation">Angiver om der er kolonne overskrifter i filen</target>
           <note from="Developer" annotates="general" priority="2">DAN="Angiver om der er kolonne overskrifter i filen"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ERP Excel import Setup - Control Columns header in file - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ERPG Excel import Setup - Control Columns header in file - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 1966042782 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 632047767 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specify description</source>
-          <target state="needs-review-translation">Angiv beskrivelse</target>
+          <target state="needs-review-translation">Angiver beskrivelse</target>
           <note from="Developer" annotates="general" priority="2">DAN="Angiver beskrivelsen"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ERP Excel import Setup - Control Description - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ERPG Excel import Setup - Control Description - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 1966042782 - Control 1963025173 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 632047767 - Control 1963025173 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specify Quantity of colunms in Excel file</source>
-          <target state="needs-review-translation">Angiv antal kolonner i Excel-fil</target>
+          <target state="needs-review-translation">Angiver hvor mange kolonner der er i Excel fil</target>
           <note from="Developer" annotates="general" priority="2">DAN="Angiver hvor mange kolonner der er i Excel fil"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ERP Excel import Setup - Control No. of Columns - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ERPG Excel import Setup - Control No. of Columns - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 1966042782 - Control 917479179 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 632047767 - Control 917479179 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specify tablename</source>
-          <target state="needs-review-translation">Angiv tabelnavn</target>
+          <target state="needs-review-translation">Angiver tabel navn</target>
           <note from="Developer" annotates="general" priority="2">DAN="Angiver tabelnavn"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ERP Excel import Setup - Control Tablename - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ERPG Excel import Setup - Control Tablename - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 1966042782 - Control 103915345 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 632047767 - Control 103915345 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specify tableno. (81 for Gen.Journal, 83 for Item Journal and 210 for ProjectJournal)</source>
-          <target state="needs-review-translation">Angiver tabel nr. (81 for finans, 83 for vare og 210 for projekt)</target>
+          <target state="needs-review-translation">Angiver tabel nr. (81 for finanskladde, 83 for varekladde, 210 for projektkladde)</target>
           <note from="Developer" annotates="general" priority="2">DAN="Angiver tabelnr."</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ERP Excel import Setup - Control TableNo - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ERPG Excel import Setup - Control TableNo - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 1966042782 - Control 1132883513 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 632047767 - Control 1132883513 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specify which dato to use in the journal, in import</source>
-          <target state="needs-review-translation">Angiv hvilken dato der skal bruges i finanskladden, ved import</target>
+          <target state="needs-review-translation">Angiver bogføringsdato der benyttes i kladde, ved import</target>
           <note from="Developer" annotates="general" priority="2">DAN="Angiver bogføringsdato der benyttes i kladde, ved import"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ERP Excel import Setup - Control Use Postingdate - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ERPG Excel import Setup - Control Use Postingdate - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 1966042782 - Control 98207365 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 632047767 - Control 98207365 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specify the User who created data</source>
-          <target state="needs-review-translation">Angiv den bruger, der har oprettet data</target>
+          <target state="needs-review-translation">Angiver den bruger som har oprettet data</target>
           <note from="Developer" annotates="general" priority="2">DAN="Angiver hvem der har oprettet data"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ERP Excel import Setup - Control Created by - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ERPG Excel import Setup - Control Created by - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 1966042782 - Control 502894480 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 632047767 - Control 502894480 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specify the date of creation</source>
-          <target state="needs-review-translation">Angiv datoen for oprettelsen</target>
+          <target state="needs-review-translation">Angiver den dato data er oprettet</target>
           <note from="Developer" annotates="general" priority="2">DAN="Agiver dato for oprettelsen"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ERP Excel import Setup - Control Created date - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ERPG Excel import Setup - Control Created date - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 1966042782 - Control 3947465524 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 632047767 - Control 3947465524 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specify the User who lastest has modified data</source>
-          <target state="needs-review-translation">Angiv den bruger, der senest har ændret data</target>
+          <target state="needs-review-translation">Angiver den bruger som sidst har redigeret data</target>
           <note from="Developer" annotates="general" priority="2">DAN="Angiver hvem der senest har rettet data"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ERP Excel import Setup - Control Last modified by - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ERPG Excel import Setup - Control Last modified by - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 1966042782 - Control 3980052081 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 632047767 - Control 3980052081 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specify the date of latest modfication</source>
-          <target state="needs-review-translation">Angiv datoen for seneste ændring</target>
+          <target state="needs-review-translation">Angiver den dato som der sidst er redigeret</target>
           <note from="Developer" annotates="general" priority="2">DAN="Angiver hvilken dato, data sidst er rettet"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ERP Excel import Setup - Control Last modified date - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ERPG Excel import Setup - Control Last modified date - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 1966042782 - Action 3044331261 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 632047767 - Action 3044331261 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Functions</source>
-          <target state="needs-review-translation">Funktioner</target>
+          <target state="needs-review-translation">Funktion</target>
           <note from="Developer" annotates="general" priority="2">DAN="Funktioner"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ERP Excel import Setup - Action &amp;Funktioner - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ERPG Excel import Setup - Action &amp;Funktioner - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 1966042782 - Action 58289256 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 632047767 - Action 58289256 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Creates lines, according to the quantity, fill in No. of Columns</source>
-          <target state="needs-review-translation">Opretter linjer i henhold til antallet, udfyld Antal kolonner</target>
+          <target state="needs-review-translation">Opretter samme antal linjer, som der er angivet i kolonne antal</target>
           <note from="Developer" annotates="general" priority="2">DAN="Opretter samme antal linjer, som der er angivet i kolonne antal"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ERP Excel import Setup - Action CreateLines for Column - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ERPG Excel import Setup - Action CreateLines for Column - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 1966042782 - Action 58289256 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 632047767 - Action 58289256 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>CreateLines for Column</source>
-          <target state="needs-review-translation">Opret linjer til kolonne</target>
+          <target state="needs-review-translation">Opret linjer (antal kolonner)</target>
           <note from="Developer" annotates="general" priority="2">DAN="Opret linjer (antal kolonner)"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ERP Excel import Setup - Action CreateLines for Column - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ERPG Excel import Setup - Action CreateLines for Column - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 1966042782 - Action 1977050408 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 632047767 - Action 1977050408 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Importer Excelfile</source>
-          <target state="needs-review-translation">Importer Excelfil</target>
+          <target state="needs-review-translation">Import Excelfil</target>
           <note from="Developer" annotates="general" priority="2">DAN="Importer Excel fil"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ERP Excel import Setup - Action Import Excelfile - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ERPG Excel import Setup - Action Import Excelfile - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 1966042782 - Action 1977050408 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 632047767 - Action 1977050408 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Import Excelfile</source>
-          <target state="needs-review-translation">Importer Excel-fil</target>
+          <target state="needs-review-translation">Import Excelfil</target>
           <note from="Developer" annotates="general" priority="2">DAN="Importer Excel fil"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ERP Excel import Setup - Action Import Excelfile - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ERPG Excel import Setup - Action Import Excelfile - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 1966042782 - Action 1259228198 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 632047767 - Action 1259228198 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Show the Journal where data is imported</source>
-          <target state="needs-review-translation">Vis den finanskladde, hvor data importeres</target>
+          <target state="needs-review-translation">Vis kladde hvor data importeres til</target>
           <note from="Developer" annotates="general" priority="2">DAN="Viser kladde er importeret til"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ERP Excel import Setup - Action Show Journal - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ERPG Excel import Setup - Action Show Journal - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 1966042782 - Action 1259228198 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 632047767 - Action 1259228198 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Show Journal</source>
           <target state="needs-review-translation">Vis kladde</target>
           <note from="Developer" annotates="general" priority="2">DAN="Vis kladde"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ERP Excel import Setup - Action Show Journal - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ERPG Excel import Setup - Action Show Journal - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 1966042782 - Action 1259228198 - Method 1377591017 - NamedType 167903342" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 632047767 - Action 1259228198 - Method 1377591017 - NamedType 167903342" size-unit="char" translate="yes" xml:space="preserve">
           <source>No Lines in journal</source>
-          <target state="needs-review-translation">Ingen linjer i kladden</target>
+          <target state="needs-review-translation">Der findes ingen kladdelinjer</target>
           <note from="Developer" annotates="general" priority="2">DAN="Der findes ingen kladdelinjer"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ERP Excel import Setup - Action Show Journal - Method OnAction - NamedType NoJournalLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ERPG Excel import Setup - Action Show Journal - Method OnAction - NamedType NoJournalLbl</note>
         </trans-unit>
-        <trans-unit id="Page 2692762269 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 3141987312 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Excel Import List, Setup</source>
-          <target state="needs-review-translation">Excel importliste, opsætning</target>
+          <target state="needs-review-translation">Excel import opsætning Liste</target>
           <note from="Developer" annotates="general" priority="2">DAN="Excel import Liste, Opsætning"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ERP ExcelImp. List, Setup - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ERPG ExcelImp. List, Setup - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 2692762269 - Control 3004954119 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 3141987312 - Control 3004954119 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specify code</source>
-          <target state="needs-review-translation">Angiv kode</target>
+          <target state="needs-review-translation">Angiver kode</target>
           <note from="Developer" annotates="general" priority="2">DAN="Angiver koden"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ERP ExcelImp. List, Setup - Control Code - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ERPG ExcelImp. List, Setup - Control Code - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 2692762269 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 3141987312 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specify description</source>
-          <target state="needs-review-translation">Angiv beskrivelse</target>
+          <target state="needs-review-translation">Angiver beskrivelse</target>
           <note from="Developer" annotates="general" priority="2">DAN="Angiver beskrivelsen"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ERP ExcelImp. List, Setup - Control Description - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ERPG ExcelImp. List, Setup - Control Description - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 2692762269 - Control 3947465524 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 3141987312 - Control 3947465524 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specify the User who lastest has modified data</source>
-          <target state="needs-review-translation">Angiv den bruger, der senest har ændret data</target>
+          <target state="needs-review-translation">Angiv den bruger, der sidst har ændret data.</target>
           <note from="Developer" annotates="general" priority="2">DAN="Angiver hvem der senest har rettet data"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ERP ExcelImp. List, Setup - Control Last modified by - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ERPG ExcelImp. List, Setup - Control Last modified by - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 2692762269 - Control 3980052081 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 3141987312 - Control 3980052081 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specify the date of latest modfication</source>
-          <target state="needs-review-translation">Angiv datoen for seneste ændring</target>
+          <target state="needs-review-translation">Angiv den dato der sidst har ændret data.</target>
           <note from="Developer" annotates="general" priority="2">DAN="Angiver hvilken dato, data sidst er rettet"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ERP ExcelImp. List, Setup - Control Last modified date - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ERPG ExcelImp. List, Setup - Control Last modified date - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 2692762269 - Control 1963025173 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 3141987312 - Control 1963025173 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specify Quantity of colunms in Excel file</source>
-          <target state="needs-review-translation">Angiv antal kolonner i Excel-fil</target>
+          <target state="needs-review-translation">Angiver antal af kolonner i Excel filen</target>
           <note from="Developer" annotates="general" priority="2">DAN="Angiver hvor mange kolonner der er i Excel fil"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ERP ExcelImp. List, Setup - Control No. of Columns - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ERPG ExcelImp. List, Setup - Control No. of Columns - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 2692762269 - Control 1847889641 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 3141987312 - Control 1847889641 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specify tableno.</source>
-          <target state="needs-review-translation">Angiv tabelnr.</target>
+          <target state="needs-review-translation">Angiver tabel nr.</target>
           <note from="Developer" annotates="general" priority="2">DAN="Angiver tabelnr."</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ERP ExcelImp. List, Setup - Control TabelNo - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ERPG ExcelImp. List, Setup - Control TabelNo - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 2692762269 - Control 917479179 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 3141987312 - Control 917479179 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specify tablename</source>
-          <target state="needs-review-translation">Angiv tabelnavn</target>
+          <target state="needs-review-translation">Angiver tabel navn</target>
           <note from="Developer" annotates="general" priority="2">DAN="Angiver tabelnavn"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ERP ExcelImp. List, Setup - Control Tablename - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ERPG ExcelImp. List, Setup - Control Tablename - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 2692762269 - Control 1132883513 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 3141987312 - Control 1132883513 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specify postingdate to use in import</source>
-          <target state="needs-review-translation">Angiv bogføringsdato, der skal bruges ved import</target>
+          <target state="needs-review-translation">Brug bogføringsdato </target>
           <note from="Developer" annotates="general" priority="2">DAN="Angiver bogføringsdato der angives i kladden, ved import"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ERP ExcelImp. List, Setup - Control Use Postingdate - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ERPG ExcelImp. List, Setup - Control Use Postingdate - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 3122198746 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 2405949259 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Excel Import lines</source>
-          <target state="needs-review-translation">Excel Import linjer</target>
+          <target state="needs-review-translation">Linjer</target>
           <note from="Developer" annotates="general" priority="2">DAN="Excel import linjer"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ERP Excelimp.lines Setupline - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ERPG Excelimp.lines Setupline - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 3122198746 - Control 3004954119 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 2405949259 - Control 3004954119 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specify code</source>
-          <target state="needs-review-translation">Angiv kode</target>
+          <target state="needs-review-translation">Angiver kode</target>
           <note from="Developer" annotates="general" priority="2">DAN="Angiver koden"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ERP Excelimp.lines Setupline - Control Code - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ERPG Excelimp.lines Setupline - Control Code - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 3122198746 - Control 1370214738 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 2405949259 - Control 1370214738 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specify column No. in the Excel file (A column is no. 1, B is no. 2 etc)</source>
-          <target state="needs-review-translation">Angiv kolonne nr. i Excel-filen (A kolonne er nr. 1, B er nr. 2 osv.)</target>
+          <target state="needs-review-translation">Angiv kolonnenummeret i Excel-filen (kolonne A er nr. 1, B er nr. 2 osv.)</target>
           <note from="Developer" annotates="general" priority="2">DAN="Angiver kolonnenr. i Excel fil (A kolonne vil være nr. 1, B nr. 2 osv.)"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ERP Excelimp.lines Setupline - Control Column - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ERPG Excelimp.lines Setupline - Control Column - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 3122198746 - Control 98207365 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 2405949259 - Control 98207365 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specify the User who created data</source>
-          <target state="needs-review-translation">Angiv den bruger, der har oprettet data</target>
+          <target state="needs-review-translation">Angiv den bruger, der oprettede dataene.</target>
           <note from="Developer" annotates="general" priority="2">DAN="Angiver hvem der har oprettet data"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ERP Excelimp.lines Setupline - Control Created by - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ERPG Excelimp.lines Setupline - Control Created by - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 3122198746 - Control 502894480 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 2405949259 - Control 502894480 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specify the date of creation</source>
-          <target state="needs-review-translation">Angiv datoen for oprettelsen</target>
+          <target state="needs-review-translation">Angiv den dato, data blev oprettet.</target>
           <note from="Developer" annotates="general" priority="2">DAN="Agiver dato for oprettelsen"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ERP Excelimp.lines Setupline - Control Created date - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ERPG Excelimp.lines Setupline - Control Created date - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 3122198746 - Control 2913739292 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 2405949259 - Control 2913739292 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specify the default value for the Field</source>
-          <target state="needs-review-translation">Angiv standardværdien for feltet</target>
+          <target state="needs-review-translation">Angiver standardværdien for feltet</target>
           <note from="Developer" annotates="general" priority="2">DAN="Specificere standardværdi for feltet"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ERP Excelimp.lines Setupline - Control Default Value - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ERPG Excelimp.lines Setupline - Control Default Value - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 3122198746 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 2405949259 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specify description</source>
-          <target state="needs-review-translation">Angiv beskrivelse</target>
+          <target state="needs-review-translation">Angiver beskrivelse</target>
           <note from="Developer" annotates="general" priority="2">DAN="Angiver beskrivelsen"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ERP Excelimp.lines Setupline - Control Description - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ERPG Excelimp.lines Setupline - Control Description - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 3122198746 - Control 3905881183 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 2405949259 - Control 3905881183 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specify fieldname</source>
-          <target state="needs-review-translation">Angiv feltnavn</target>
+          <target state="needs-review-translation">Angiver feltnavn</target>
           <note from="Developer" annotates="general" priority="2">DAN="Angiver feltnavn"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ERP Excelimp.lines Setupline - Control Fieldname - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ERPG Excelimp.lines Setupline - Control Fieldname - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 3122198746 - Control 2547700717 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 2405949259 - Control 2547700717 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specify fieldno.</source>
-          <target state="needs-review-translation">Angiv feltnr.</target>
+          <target state="needs-review-translation">Angiver feltnr.</target>
           <note from="Developer" annotates="general" priority="2">DAN="Angiver feltnr."</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ERP Excelimp.lines Setupline - Control FieldNo - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ERPG Excelimp.lines Setupline - Control FieldNo - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 3122198746 - Control 3947465524 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 2405949259 - Control 3947465524 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specify the User who lastest has modified data</source>
-          <target state="needs-review-translation">Angiv den bruger, der senest har ændret data</target>
+          <target state="needs-review-translation">Angiver den bruger som seneste har redigeret data</target>
           <note from="Developer" annotates="general" priority="2">DAN="Angiver hvem der senest har rettet data"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ERP Excelimp.lines Setupline - Control Last modified by - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ERPG Excelimp.lines Setupline - Control Last modified by - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 3122198746 - Control 3980052081 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 2405949259 - Control 3980052081 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specify the date of latest modfication</source>
-          <target state="needs-review-translation">Angiv datoen for seneste ændring</target>
+          <target state="needs-review-translation">Angiver den dato, data seneste er redigeret</target>
           <note from="Developer" annotates="general" priority="2">DAN="Angiver hvilken dato, data sidst er rettet"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ERP Excelimp.lines Setupline - Control Last modified date - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ERPG Excelimp.lines Setupline - Control Last modified date - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 3122198746 - Control 1165969121 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 2405949259 - Control 1165969121 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specify lineno.</source>
-          <target state="needs-review-translation">Angiv linjenr.</target>
+          <target state="needs-review-translation">Angiver linjenr.</target>
           <note from="Developer" annotates="general" priority="2">DAN="Angiver linjenr."</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ERP Excelimp.lines Setupline - Control LineNo - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ERPG Excelimp.lines Setupline - Control LineNo - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 3122198746 - Control 23746568 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 2405949259 - Control 23746568 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specify that the column must have a value.</source>
-          <target state="needs-review-translation">Angiver at kolonnen skal have værdi for at blive behandlet</target>
+          <target state="needs-review-translation">Specificere kolonne skal have en værdi</target>
           <note from="Developer" annotates="general" priority="2">DAN="Specificere kolonne skal have en værdi"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ERP Excelimp.lines Setupline - Control MandatoryValue - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ERPG Excelimp.lines Setupline - Control MandatoryValue - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 3122198746 - Control 253442157 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 2405949259 - Control 253442157 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specify the if value for the Field need to reverse sign</source>
           <target state="needs-review-translation">Angiv hvis værdien for feltet skal vende fortegn</target>
           <note from="Developer" annotates="general" priority="2">DAN="Specificere værdi i Excel skal have vendt fortegn"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ERP Excelimp.lines Setupline - Control ReverseSign - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ERPG Excelimp.lines Setupline - Control ReverseSign - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 3122198746 - Control 1847889641 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 2405949259 - Control 1847889641 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specify tableno.</source>
-          <target state="needs-review-translation">Angiv tabelnr.</target>
+          <target state="needs-review-translation">Angiver tabel nr.</target>
           <note from="Developer" annotates="general" priority="2">DAN="Angiver tabelnr."</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ERP Excelimp.lines Setupline - Control TabelNo - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ERPG Excelimp.lines Setupline - Control TabelNo - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 3122198746 - Control 917479179 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 2405949259 - Control 917479179 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specify tablename</source>
-          <target state="needs-review-translation">Angiv tabelnavn</target>
+          <target state="needs-review-translation">Angiver tabel navn</target>
           <note from="Developer" annotates="general" priority="2">DAN="Angiver tabelnavn"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ERP Excelimp.lines Setupline - Control Tablename - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ERPG Excelimp.lines Setupline - Control Tablename - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 3122198746 - Control 3523059006 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specify that the column is not in use.</source>
-          <target state="needs-review-translation">Angier at kolonnens værdier ikke skal bruges</target>
-          <note from="Developer" annotates="general" priority="2">DAN="Specificere kolonne er ikke i brug"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ERP Excelimp.lines Setupline - Control ValueNotInUse - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 3768389105 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 2162675636 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Field list</source>
-          <target state="needs-review-translation">Feltliste</target>
+          <target state="needs-review-translation">Felt liste</target>
           <note from="Developer" annotates="general" priority="2">DAN="Felt liste"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ERP Field list - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ERPG Field list - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 3768389105 - Control 823559016 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 2162675636 - Control 823559016 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specify the Caption of the Field name</source>
-          <target state="needs-review-translation">Angiv værdien af feltnavn</target>
+          <target state="needs-review-translation">Angiver feltnavn</target>
           <note from="Developer" annotates="general" priority="2">DAN="Angiver felt navn"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ERP Field list - Control Field Caption - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ERPG Field list - Control Field Caption - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 3768389105 - Control 4200184881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 2162675636 - Control 4200184881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specify the No. of the Field</source>
-          <target state="needs-review-translation">Angiv nummeret på feltet</target>
+          <target state="needs-review-translation">Angiver feltnr.</target>
           <note from="Developer" annotates="general" priority="2">DAN="Angiver felt nr."</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ERP Field list - Control No. - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ERPG Field list - Control No. - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 3768389105 - Control 730832363 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 2162675636 - Control 730832363 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specify the Table name</source>
-          <target state="needs-review-translation">Angiv tabelnavnet</target>
+          <target state="needs-review-translation">Angiver tabel navn</target>
           <note from="Developer" annotates="general" priority="2">DAN="Angiver tabel navn"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ERP Field list - Control TableName - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ERPG Field list - Control TableName - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 3768389105 - Control 103915345 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 2162675636 - Control 103915345 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specify the No. of the table</source>
-          <target state="needs-review-translation">Angiv nummeret på tabellen</target>
+          <target state="needs-review-translation">Angiver tabel nr.</target>
           <note from="Developer" annotates="general" priority="2">DAN="Angiver tabel nr."</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ERP Field list - Control TableNo - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ERPG Field list - Control TableNo - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Report 4234566077 - NamedType 1755106160" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 2927067571 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ExcelImport_SkipRow</source>
+          <target state="needs-review-translation">Spring række over</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ERPG_ExcelImport_SkipRow - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2927067571 - Control 1431606870 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Skip Row No field.</source>
+          <target state="needs-review-translation">Angiver hvilke rækker der skal springes over i importen</target>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ERPG_ExcelImport_SkipRow - Control Skip Row No - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 2312885112 - NamedType 1755106160" size-unit="char" translate="yes" xml:space="preserve">
           <source>Import File</source>
           <target state="needs-review-translation">Importer fil</target>
           <note from="Developer" annotates="general" priority="2">DAN="Importer fil"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report ERP Import ExcelFile - NamedType ERP001Lbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ERPG Import ExcelFile - NamedType ERP001Lbl</note>
         </trans-unit>
-        <trans-unit id="Report 4234566077 - NamedType 3598011153" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 2312885112 - NamedType 3598011153" size-unit="char" translate="yes" xml:space="preserve">
           <source>Import completed - Imported lines %1</source>
-          <target state="needs-review-translation">Import afsluttet - Importerede linjer %1</target>
+          <target state="needs-review-translation">Import færdig - importerde %1 linjer</target>
           <note from="Developer" annotates="general" priority="2">DAN="Import gennemført - antal linjer %1"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report ERP Import ExcelFile - NamedType ERP002Lbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ERPG Import ExcelFile - NamedType ERP002Lbl</note>
         </trans-unit>
-        <trans-unit id="Report 4234566077 - Control 624161470 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 2312885112 - Control 624161470 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Options</source>
-          <target state="needs-review-translation">Valgmuligheder</target>
+          <target state="needs-review-translation">Indstillinger</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report ERP Import ExcelFile - Control Indstillinger - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ERPG Import ExcelFile - Control Indstillinger - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Report 4234566077 - Control 2960752820 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 2312885112 - Control 2960752820 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specify the Excel Setup kode</source>
-          <target state="needs-review-translation">Specificer Excel Import Opsætningskode</target>
+          <target state="needs-review-translation">Angiver Excel import opsætnings kode</target>
           <note from="Developer" annotates="general" priority="2">DAN="Angiver Excel skabelon kode"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report ERP Import ExcelFile - Control Excel Import Setupcode - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ERPG Import ExcelFile - Control Excel Import Setupcode - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Report 4234566077 - Control 2960752820 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 2312885112 - Control 2960752820 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Excel import code</source>
-          <target state="needs-review-translation">Excel Import Opsætningskode</target>
+          <target state="needs-review-translation">Excel import kode</target>
           <note from="Developer" annotates="general" priority="2">DAN="Excel import kode"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report ERP Import ExcelFile - Control Excel Import Setupcode - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ERPG Import ExcelFile - Control Excel Import Setupcode - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Report 4234566077 - Control 1963917211 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 2312885112 - Control 1963917211 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specify the Excel file name</source>
-          <target state="needs-review-translation">Angiv Excel-filnavnet</target>
+          <target state="needs-review-translation">Angiver Excel filnavn</target>
           <note from="Developer" annotates="general" priority="2">DAN="Angiver Excel fil navn"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report ERP Import ExcelFile - Control ExcelFile - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ERPG Import ExcelFile - Control ExcelFile - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Report 4234566077 - Control 1963917211 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 2312885112 - Control 1963917211 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>ExcelFile</source>
-          <target state="needs-review-translation">Excelfil</target>
+          <target state="needs-review-translation">Excel fil</target>
           <note from="Developer" annotates="general" priority="2">DAN="Excel filnavn"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report ERP Import ExcelFile - Control ExcelFile - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ERPG Import ExcelFile - Control ExcelFile - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Report 4234566077 - Control 4104898276 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 2312885112 - Control 4104898276 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specify the Excel Sheet name</source>
           <target state="needs-review-translation">Angiv navnet på Excel-ark</target>
           <note from="Developer" annotates="general" priority="2">DAN="Angiver Excel ark navn"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report ERP Import ExcelFile - Control SheetName - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ERPG Import ExcelFile - Control SheetName - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Report 4234566077 - Control 4104898276 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 2312885112 - Control 4104898276 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>SheetName</source>
           <target state="needs-review-translation">Arknavn</target>
           <note from="Developer" annotates="general" priority="2">DAN="Ark navn"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report ERP Import ExcelFile - Control SheetName - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ERPG Import ExcelFile - Control SheetName - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Enum 2530485380 - EnumValue 1371923692 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Enum 627420873 - EnumValue 1371923692 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source></source>
           <target state="needs-translation"></target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Enum ImportToTable - EnumValue   - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum ERPG_ImportToTable - EnumValue   - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Enum 2530485380 - EnumValue 29657926 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Enum 627420873 - EnumValue 29657926 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Generel Journal</source>
           <target state="needs-review-translation">Finanskladde</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Enum ImportToTable - EnumValue Generel - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum ERPG_ImportToTable - EnumValue Generel - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Enum 2530485380 - EnumValue 3276313895 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Enum 627420873 - EnumValue 3276313895 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Item Journal</source>
           <target state="needs-review-translation">Varekladde</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Enum ImportToTable - EnumValue Item - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum ERPG_ImportToTable - EnumValue Item - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Enum 2530485380 - EnumValue 2818324089 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Enum 627420873 - EnumValue 2818324089 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Job Journal</source>
           <target state="needs-review-translation">Projektkladde</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Enum ImportToTable - EnumValue Job - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum ERPG_ImportToTable - EnumValue Job - Property Caption</note>
         </trans-unit>
       </group>
     </body>

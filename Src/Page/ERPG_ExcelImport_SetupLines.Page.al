@@ -1,7 +1,7 @@
-page 65001 "ERP Excelimp.lines Setupline"
+page 65001 "ERPG Excelimp.lines Setupline"
 {
     PageType = ListPart;
-    SourceTable = "ERP ExcelImport_SetupLine";
+    SourceTable = "ERPG ExcelImport_SetupLine";
     Caption = 'Excel Import lines', Comment = 'DAN="Excel import linjer"';
     ApplicationArea = All;
     UsageCategory = Tasks;

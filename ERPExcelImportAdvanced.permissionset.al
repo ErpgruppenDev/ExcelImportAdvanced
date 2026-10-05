@@ -4,13 +4,16 @@
 permissionset 65000 ERP_ExcelImpAdvanced
 {
     Assignable = true;
-    Permissions = tabledata "ERP Excel Import Setup"=RIMD,
-        tabledata "ERP ExcelImport_SetupLine"=RIMD,
-        table "ERP Excel Import Setup"=X,
-        table "ERP ExcelImport_SetupLine"=X,
-        report "ERP Import ExcelFile"=X,
-        page "ERP Excel import Setup"=X,
-        page "ERP ExcelImp. List, Setup"=X,
-        page "ERP Excelimp.lines Setupline"=X,
-        page "ERP Field list"=X;
+    Permissions = tabledata "ERPG Excel Import Setup"=RIMD,
+        tabledata "ERPG ExcelImport_SetupLine"=RIMD,
+        table "ERPG Excel Import Setup"=X,
+        table "ERPG ExcelImport_SetupLine"=X,
+        report "ERPG Import ExcelFile"=X,
+        page "ERPG Excel import Setup"=X,
+        page "ERPG ExcelImp. List, Setup"=X,
+        page "ERPG Excelimp.lines Setupline"=X,
+        page "ERPG Field list"=X,
+        tabledata ERPG_ExcelImport_SkipRow=RIMD,
+        table ERPG_ExcelImport_SkipRow=X,
+        page ERPG_ExcelImport_SkipRow=X;
 }

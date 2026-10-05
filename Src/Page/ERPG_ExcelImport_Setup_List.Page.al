@@ -1,10 +1,10 @@
-page 65002 "ERP ExcelImp. List, Setup"
+page 65002 "ERPG ExcelImp. List, Setup"
 {
     Caption = 'Excel Import List, Setup', Comment = 'DAN="Excel import Liste, Opsætning"';
-    CardPageID = "ERP Excel import Setup";
+    CardPageID = "ERPG Excel import Setup";
     Editable = false;
     PageType = List;
-    SourceTable = "ERP Excel Import Setup";
+    SourceTable = "ERPG Excel Import Setup";
     UsageCategory = Tasks;
     ApplicationArea = All;
 

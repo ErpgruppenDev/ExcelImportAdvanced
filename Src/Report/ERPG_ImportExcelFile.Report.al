@@ -1,4 +1,4 @@
-report 65000 "ERP Import ExcelFile"
+report 65000 "ERPG Import ExcelFile"
 {
     ProcessingOnly = true;
 
@@ -8,7 +8,7 @@ report 65000 "ERP Import ExcelFile"
 
     requestpage
     {
-        //SaveValues = true;
+        // SaveValues = true;
 
         layout
         {
@@ -79,7 +79,13 @@ report 65000 "ERP Import ExcelFile"
         TempExcelBuffer.OpenBookStream(InstreamVar, SheetName_Req);
         //TempExcelBuffer.OpenBookStream()
         //TempExcelBuffer.OpenExcel();
-        TempExcelBuffer.ReadSheet();        
+        TempExcelBuffer.ReadSheet();
+        SkipRowUpdate();
+        if tempExcelBuffer.FindFirst() then
+            repeat
+                TempExcelBuffer3 := TempExcelBuffer;
+                TempExcelBuffer3.Insert()
+            until TempExcelBuffer.Next() = 0;
         if TempExcelBuffer.FindLast() then
             if ERP_ExcelImportSetup."Columns header in file" then begin
                 for i := 2 to TempExcelBuffer."Row No." do
@@ -125,6 +131,7 @@ report 65000 "ERP Import ExcelFile"
         //ERP_ExcelImportGenJnlLine.TESTFIELD("Use Postingdate");
         TempExcelBuffer.DeleteAll();
         TempExcelBuffer2.DeleteAll();
+        TempExcelBuffer3.DeleteAll();
 
         Clear(GenJournalLineLocal);
         Clear(GenJournalBatch);
@@ -173,10 +180,11 @@ report 65000 "ERP Import ExcelFile"
     end;
 
     var
-        ERP_ExcelImportSetup: Record "ERP Excel Import Setup";
-        ERP_ExcelImpLinesGenJnlLine: Record "ERP ExcelImport_SetupLine";
+        ERP_ExcelImportSetup: Record "ERPG Excel Import Setup";
+        ERP_ExcelImportLines: Record "ERPG ExcelImport_SetupLine";
         TempExcelBuffer: Record "Excel Buffer";  // temporary;
         TempExcelBuffer2: Record "Excel Buffer" temporary;
+        TempExcelBuffer3: Record "Excel Buffer" temporary;
         TempNameValueBufferOut: Record "Name/Value Buffer" temporary;
         ConfigValidateManagement: Codeunit "Config. Validate Management";
         NoSeriesManagement: Codeunit "No. Series"; //"NoSeriesManagement";
@@ -195,6 +203,33 @@ report 65000 "ERP Import ExcelFile"
         NextLine: Integer;
         NextDocno: Code[20];
 
+    procedure CheckForMandatoryFields(iRow: Integer): Boolean
+    var
+
+        ReturnValue: Boolean;
+    begin
+        ReturnValue := true;
+        TempExcelBuffer3.SetRange("Row No.", iRow);
+
+        Clear(ERP_ExcelImportLines);
+        ERP_ExcelImportLines.SetRange(ERP_ExcelImportLines.Code, ERP_ExcelImportSetup.Code);
+        ERP_ExcelImportLines.SetRange(value_Mandatory, true);
+        if ERP_ExcelImportLines.FindFirst() then
+            repeat
+                TempExcelBuffer3.SetRange("Column No.", ERP_ExcelImportLines.Column);
+                if TempExcelBuffer3.FindFirst() then
+                    repeat
+                        if TempExcelBuffer3."Column No." = ERP_ExcelImportLines.Column then
+                            if (TempExcelBuffer3."Cell Value as Text" = '') and ERP_ExcelImportLines.Value_Mandatory then
+                                ReturnValue := false;
+                    until TempExcelBuffer3.Next() = 0
+                else
+                    ReturnValue := false;
+            until ERP_ExcelImportLines.Next() = 0;
+
+        exit(ReturnValue);
+    end;
+
     local procedure CreateGenJnl(iRow: Integer)
     var
         GenJournalLine: Record "Gen. Journal Line";
@@ -202,6 +237,9 @@ report 65000 "ERP Import ExcelFile"
 
         TempExcelBuffer.SetRange(TempExcelBuffer."Row No.", iRow);
         if TempExcelBuffer.FindFirst() then begin
+            //Has row mandatory values?         
+            if not CheckForMandatoryFields(TempExcelBuffer."Row No.") then
+                exit;
             Clear(GenJournalLine);
             GenJournalLine.Init();
             GenJournalLine.Validate("Journal Template Name", ERP_ExcelImportSetup.JournalTemplate);
@@ -231,6 +269,9 @@ report 65000 "ERP Import ExcelFile"
 
         TempExcelBuffer.SetRange(TempExcelBuffer."Row No.", iRow);
         if TempExcelBuffer.FindFirst() then begin
+            //Has row mandatory values?
+            if not CheckForMandatoryFields(TempExcelBuffer."Row No.") then
+                exit;
             Clear(JobJournalLine);
             JobJournalLine.Init();
             JobJournalLine.Validate("Journal Template Name", ERP_ExcelImportSetup.JournalTemplate);
@@ -260,6 +301,9 @@ report 65000 "ERP Import ExcelFile"
 
         TempExcelBuffer.SetRange(TempExcelBuffer."Row No.", iRow);
         if TempExcelBuffer.FindFirst() then begin
+            //Has row mandatory values?
+            if not CheckForMandatoryFields(TempExcelBuffer."Row No.") then
+                exit;
             Clear(ItemJournalLine);
             ItemJournalLine.Init();
             ItemJournalLine.Validate("Journal Template Name", ERP_ExcelImportSetup.JournalTemplate);
@@ -285,16 +329,15 @@ report 65000 "ERP Import ExcelFile"
     local procedure HandleField(parColumn: Integer; parValue: Text)
     var
         TEMPDecimal: Decimal;
-
     begin
-        Clear(ERP_ExcelImpLinesGenJnlLine);
-        ERP_ExcelImpLinesGenJnlLine.SetRange(ERP_ExcelImpLinesGenJnlLine.Code, ERP_ExcelImportSetup.Code);
-        ERP_ExcelImpLinesGenJnlLine.SetRange(Column, parColumn);
-        if ERP_ExcelImpLinesGenJnlLine.FindFirst() then begin
-            if (parValue = '') and ERP_ExcelImpLinesGenJnlLine.Value_Mandatory then
+        Clear(ERP_ExcelImportLines);
+        ERP_ExcelImportLines.SetRange(ERP_ExcelImportLines.Code, ERP_ExcelImportSetup.Code);
+        ERP_ExcelImportLines.SetRange(Column, parColumn);
+        if ERP_ExcelImportLines.FindFirst() then begin
+            if (parValue = '') and ERP_ExcelImportLines.Value_Mandatory then
                 exit;
-            FieldRef_ := RecordRef_.Field(ERP_ExcelImpLinesGenJnlLine.FieldNo);
-            if ERP_ExcelImpLinesGenJnlLine.ReverseSign then begin
+            FieldRef_ := RecordRef_.Field(ERP_ExcelImportLines.FieldNo);
+            if ERP_ExcelImportLines.ReverseSign then begin
                 Clear(TEMPDecimal);
                 Evaluate(TEMPDecimal, parValue);
                 TEMPDecimal := TEMPDecimal * -1;
@@ -308,21 +351,35 @@ report 65000 "ERP Import ExcelFile"
 
     local procedure HandleFieldDefault()
     begin
-        Clear(ERP_ExcelImpLinesGenJnlLine);
-        ERP_ExcelImpLinesGenJnlLine.SetRange(ERP_ExcelImpLinesGenJnlLine.Code, ERP_ExcelImportSetup.Code);
-        ERP_ExcelImpLinesGenJnlLine.SetRange(Column, 0);
-        if ERP_ExcelImpLinesGenJnlLine.FindFirst() then
+        Clear(ERP_ExcelImportLines);
+        ERP_ExcelImportLines.SetRange(ERP_ExcelImportLines.Code, ERP_ExcelImportSetup.Code);
+        ERP_ExcelImportLines.SetRange(Column, 0);
+        if ERP_ExcelImportLines.FindFirst() then
             repeat
-                FieldRef_ := RecordRef_.Field(ERP_ExcelImpLinesGenJnlLine.FieldNo);
-                if (ERP_ExcelImpLinesGenJnlLine."Default Value" <> '') then
-                    ConfigValidateManagement.ValidateFieldValue(RecordRef_, FieldRef_, ERP_ExcelImpLinesGenJnlLine."Default Value", false, LanguageID);
+                FieldRef_ := RecordRef_.Field(ERP_ExcelImportLines.FieldNo);
+                if (ERP_ExcelImportLines."Default Value" <> '') then
+                    ConfigValidateManagement.ValidateFieldValue(RecordRef_, FieldRef_, ERP_ExcelImportLines."Default Value", false, LanguageID);
                 RecordRef_.Modify();
-            until ERP_ExcelImpLinesGenJnlLine.Next() = 0;
+            until ERP_ExcelImportLines.Next() = 0;
     end;
 
     procedure SetExcelSetup(parExcelCode: Code[10])
     begin
         ExcelImportCode := parExcelCode;
+    end;
+
+    procedure SkipRowUpdate()
+    var
+        ExcelSkipRow: Record "ERPG_ExcelImport_SkipRow";
+    begin
+        ExcelSkipRow.SetRange(Code, ERP_ExcelImportSetup.Code);
+        if ExcelSkipRow.FindSet() then
+            repeat
+                TempExcelBuffer.SetRange(TempExcelBuffer."Row No.", ExcelSkipRow."Skip Row No");
+                if TempExcelBuffer.FindSet() then
+                    TempExcelBuffer.DeleteAll();
+            until ExcelSkipRow.Next() = 0;
+        TempExcelBuffer.Reset();
     end;
 }
 

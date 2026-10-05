@@ -1,7 +1,7 @@
-enum 65000 ImportToTable
+enum 65000 ERPG_ImportToTable
 {
     Extensible = true;
-    
+
     value(0; " ")
     {
         Caption = ' ';

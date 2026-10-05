@@ -1,4 +1,4 @@
-table 65001 "ERP ExcelImport_SetupLine"
+table 65001 "ERPG ExcelImport_SetupLine"
 {
     Caption = 'Excel Import SetupLine', Comment = 'DAN="Excel Import linjer"';
 
@@ -8,7 +8,7 @@ table 65001 "ERP ExcelImport_SetupLine"
         {
             Caption = 'Code', Comment = 'DAN="Kode"';
             DataClassification = ToBeClassified;
-            TableRelation = "ERP Excel Import Setup";
+            TableRelation = "ERPG Excel Import Setup";
         }
         Field(5; LineNo; Integer)
         {
@@ -50,7 +50,7 @@ table 65001 "ERP ExcelImport_SetupLine"
                 Clear(LocalFieldRec);
                 LocalFieldRec.SetRange(TableNo, Rec.TabelNo);
                 if LocalFieldRec.FindFirst() then
-                    if Page.RunModal(Page::"ERP Field list", LocalFieldRec) = Action::LookupOK then
+                    if Page.RunModal(Page::"ERPG Field list", LocalFieldRec) = Action::LookupOK then
                         FieldNo := LocalFieldRec."No.";
             end;
 
@@ -161,6 +161,6 @@ table 65001 "ERP ExcelImport_SetupLine"
     end;
 
     var
-        ERP_ExcelImportGenJnlLine: Record "ERP Excel Import Setup";
+        ERP_ExcelImportGenJnlLine: Record "ERPG Excel Import Setup";
 }
 

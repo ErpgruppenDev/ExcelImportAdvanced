@@ -1,8 +1,8 @@
-table 65000 "ERP Excel Import Setup"
+table 65000 "ERPG Excel Import Setup"
 {
     // 001.  DTx.xx  10-02-2022  HRE  []
     //                                Obj. created
-    LookupPageId = "ERP ExcelImp. List, Setup";
+    LookupPageId = "ERPG ExcelImp. List, Setup";
     Caption = 'Excel Import, Setup', Comment = 'DAN="Excel Import, finanskladde"';
 
     fields
@@ -96,7 +96,7 @@ table 65000 "ERP Excel Import Setup"
             Caption = 'Tablename', Comment = 'DAN="Tabelnavn"';
             FieldClass = FlowField;
         }
-        field(55; ImportToTable; Enum ImportToTable)
+        field(55; ImportToTable; Enum ERPG_ImportToTable)
         {
             trigger OnValidate()
             begin
@@ -174,7 +174,7 @@ table 65000 "ERP Excel Import Setup"
 
     trigger OnDelete()
     var
-        Lines: Record "ERP ExcelImport_SetupLine";
+        Lines: Record "ERPG ExcelImport_SetupLine";
     begin
         Clear(Lines);
         Lines.Setrange(Code, Rec.Code);
@@ -184,7 +184,7 @@ table 65000 "ERP Excel Import Setup"
 
     procedure CreateLines_ColumnQty()
     var
-        ERP_ExcelimpLinesGenJnlLine: Record "ERP ExcelImport_SetupLine";
+        ERP_ExcelimpLinesGenJnlLine: Record "ERPG ExcelImport_SetupLine";
         i: Integer;
     begin
         Clear(ERP_ExcelimpLinesGenJnlLine);
