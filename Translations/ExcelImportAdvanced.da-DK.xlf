@@ -189,23 +189,23 @@
           <note from="Developer" annotates="general" priority="2">DAN="Værdi er Obligatorisk"</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table ERPG ExcelImport_SetupLine - Field Value_Mandatory - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 2927067571 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 35083370 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Excel_SkipRow</source>
-          <target state="needs-review-translation">Spring række over</target>
+          <target state="needs-review-translation">Spring rækker over</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table ERPG_ExcelImport_SkipRow - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ERPG ExcelImport_SkipRow - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 2927067571 - Field 3004954119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 35083370 - Field 3004954119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Code</source>
           <target state="needs-review-translation">Kode</target>
           <note from="Developer" annotates="general" priority="2">DAN="Kode"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table ERPG_ExcelImport_SkipRow - Field Code - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ERPG ExcelImport_SkipRow - Field Code - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 2927067571 - Field 1431606870 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 35083370 - Field 1431606870 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Skip Row No</source>
-          <target state="needs-review-translation">Spring række nr. over</target>
+          <target state="needs-review-translation">Spring rækker nr. over</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table ERPG_ExcelImport_SkipRow - Field Skip Row No - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ERPG ExcelImport_SkipRow - Field Skip Row No - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 632047767 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Excel import, Setup</source>
@@ -215,7 +215,7 @@
         </trans-unit>
         <trans-unit id="Page 632047767 - Control 2840519613 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Lines / Column Specify</source>
-          <target state="needs-review-translation">Linjer / Kolonne angiv</target>
+          <target state="needs-review-translation">Linjer / Kolonne specifikation</target>
           <note from="Developer" annotates="general" priority="2">DAN="Linjer / kolonnespecifikation"</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ERPG Excel import Setup - Control Excel import lines Gen.Jnlline - Property Caption</note>
         </trans-unit>
@@ -489,6 +489,18 @@
           <note from="Developer" annotates="general" priority="2">DAN="Angiver tabelnavn"</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ERPG Excelimp.lines Setupline - Control Tablename - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 35083370 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ExcelImport_SkipRow</source>
+          <target state="needs-review-translation">Spring rækker over</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ERPG ExcelImport_SkipRow - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 35083370 - Control 1431606870 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Skip Row No field.</source>
+          <target state="needs-review-translation">Angiver hvilke rækker der ikke skal importeres.</target>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ERPG ExcelImport_SkipRow - Control Skip Row No - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 2162675636 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Field list</source>
           <target state="needs-review-translation">Felt liste</target>
@@ -518,18 +530,6 @@
           <target state="needs-review-translation">Angiver tabel nr.</target>
           <note from="Developer" annotates="general" priority="2">DAN="Angiver tabel nr."</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ERPG Field list - Control TableNo - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 2927067571 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>ExcelImport_SkipRow</source>
-          <target state="needs-review-translation">Spring række over</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ERPG_ExcelImport_SkipRow - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 2927067571 - Control 1431606870 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Skip Row No field.</source>
-          <target state="needs-review-translation">Angiver hvilke rækker der skal springes over i importen</target>
-          <note from="Developer" annotates="general" priority="2">%</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ERPG_ExcelImport_SkipRow - Control Skip Row No - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Report 2312885112 - NamedType 1755106160" size-unit="char" translate="yes" xml:space="preserve">
           <source>Import File</source>

@@ -1,4 +1,4 @@
-page 65002 "ERPG ExcelImp. List, Setup"
+page 68763 "ERPG ExcelImp. List, Setup"
 {
     Caption = 'Excel Import List, Setup', Comment = 'DAN="Excel import Liste, Opsætning"';
     CardPageID = "ERPG Excel import Setup";

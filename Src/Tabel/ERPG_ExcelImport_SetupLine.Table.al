@@ -1,4 +1,4 @@
-table 65001 "ERPG ExcelImport_SetupLine"
+table 68761 "ERPG ExcelImport_SetupLine"
 {
     Caption = 'Excel Import SetupLine', Comment = 'DAN="Excel Import linjer"';
 

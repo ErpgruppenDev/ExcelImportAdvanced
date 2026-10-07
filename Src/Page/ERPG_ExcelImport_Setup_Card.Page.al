@@ -1,4 +1,4 @@
-page 65000 "ERPG Excel import Setup"
+page 68760 "ERPG Excel import Setup"
 {
     PageType = Card;
     SourceTable = "ERPG Excel Import Setup";
@@ -83,7 +83,7 @@ page 65000 "ERPG Excel import Setup"
                 ApplicationArea = all;
                 SubPageLink = Code = Field(Code);
             }
-            part("Excel import Skip Row"; ERPG_ExcelImport_SkipRow)
+            part("Excel import Skip Row"; "ERPG ExcelImport_SkipRow")
             {
                 Caption = 'Skip Row', Comment = 'DAN="Spring over rækker"';
                 ApplicationArea = all;

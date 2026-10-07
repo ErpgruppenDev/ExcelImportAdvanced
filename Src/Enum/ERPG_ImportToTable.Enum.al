@@ -1,4 +1,4 @@
-enum 65000 ERPG_ImportToTable
+enum 68760 ERPG_ImportToTable
 {
     Extensible = true;
 

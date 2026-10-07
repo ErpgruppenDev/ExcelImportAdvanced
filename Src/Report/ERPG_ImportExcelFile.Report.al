@@ -1,4 +1,4 @@
-report 65000 "ERPG Import ExcelFile"
+report 68760 "ERPG Import ExcelFile"
 {
     ProcessingOnly = true;
 
@@ -370,7 +370,7 @@ report 65000 "ERPG Import ExcelFile"
 
     procedure SkipRowUpdate()
     var
-        ExcelSkipRow: Record "ERPG_ExcelImport_SkipRow";
+        ExcelSkipRow: Record "ERPG ExcelImport_SkipRow";
     begin
         ExcelSkipRow.SetRange(Code, ERP_ExcelImportSetup.Code);
         if ExcelSkipRow.FindSet() then

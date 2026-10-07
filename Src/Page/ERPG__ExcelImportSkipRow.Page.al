@@ -1,9 +1,9 @@
-page 65004 ERPG_ExcelImport_SkipRow
+page 68762 "ERPG ExcelImport_SkipRow"
 {
     ApplicationArea = All;
     Caption = 'ExcelImport_SkipRow';
     PageType = ListPart;
-    SourceTable = ERPG_ExcelImport_SkipRow;
+    SourceTable = "ERPG ExcelImport_SkipRow";
 
     layout
     {

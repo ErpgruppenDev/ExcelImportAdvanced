@@ -1,4 +1,4 @@
-table 65000 "ERPG Excel Import Setup"
+table 68760 "ERPG Excel Import Setup"
 {
     // 001.  DTx.xx  10-02-2022  HRE  []
     //                                Obj. created

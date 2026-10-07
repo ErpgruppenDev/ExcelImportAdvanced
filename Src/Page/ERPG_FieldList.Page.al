@@ -1,4 +1,4 @@
-Page 65003 "ERPG Field list"
+Page 68764 "ERPG Field list"
 {
 
     SourceTable = Field;

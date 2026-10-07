@@ -2,7 +2,7 @@
   "id": "4e83da0c-d96b-4995-867d-bef503e87858",
   "name": "ExcelImportAdvanced",
   "publisher": "ERPGruppen",
-  "version": "28.5.0.20",
+  "version": "28.5.0.23",
   "brief": "",
   "description": "",
   "privacyStatement": "",
@@ -24,8 +24,8 @@
   "application": "28.0.0.0",
   "idRanges": [
     {
-      "from": 65000,
-      "to": 65149
+      "from": 68760,
+      "to": 68800
     }
   ],
   "resourceExposurePolicy": {

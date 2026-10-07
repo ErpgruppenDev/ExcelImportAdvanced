@@ -1,4 +1,4 @@
-table 65002 ERPG_ExcelImport_SkipRow
+table 68762 "ERPG ExcelImport_SkipRow"
 {
     Caption = 'Excel_SkipRow';
     DataClassification = ToBeClassified;

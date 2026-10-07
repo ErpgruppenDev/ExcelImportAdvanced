@@ -1,4 +1,4 @@
-page 65001 "ERPG Excelimp.lines Setupline"
+page 68761 "ERPG Excelimp.lines Setupline"
 {
     PageType = ListPart;
     SourceTable = "ERPG ExcelImport_SetupLine";

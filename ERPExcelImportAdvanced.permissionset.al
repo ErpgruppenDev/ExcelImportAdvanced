@@ -1,7 +1,7 @@
 /// <summary>
 /// Unknown ERP_ExcelImportAdvanced (ID 60000).
 /// </summary>
-permissionset 65000 ERP_ExcelImpAdvanced
+permissionset 68760 ERP_ExcelImpAdvanced
 {
     Assignable = true;
     Permissions = tabledata "ERPG Excel Import Setup"=RIMD,
@@ -12,8 +12,8 @@ permissionset 65000 ERP_ExcelImpAdvanced
         page "ERPG Excel import Setup"=X,
         page "ERPG ExcelImp. List, Setup"=X,
         page "ERPG Excelimp.lines Setupline"=X,
-        page "ERPG Field list"=X,
-        tabledata ERPG_ExcelImport_SkipRow=RIMD,
-        table ERPG_ExcelImport_SkipRow=X,
-        page ERPG_ExcelImport_SkipRow=X;
+        page "ERPG Field list"=X,   
+        tabledata "ERPG ExcelImport_SkipRow"=RIMD,
+        table "ERPG ExcelImport_SkipRow"=X,
+        page "ERPG ExcelImport_SkipRow"=X;
 }
