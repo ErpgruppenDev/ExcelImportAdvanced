@@ -90,6 +90,10 @@ table 68760 "ERPG Excel Import Setup"
             Caption = 'Use Postingdate', Comment = 'DAN="Bogføringsdato i kladde"';
             DataClassification = ToBeClassified;
         }
+        field(45; SameDocNoAllLines; Boolean)
+        {
+            Caption = 'Use same Doc.No all lines';
+        }
         Field(50; Tablename; Text[249])
         {
             CalcFormula = Lookup(AllObjWithCaption."Object Caption" where("Object Type" = const(Table), "Object ID" = Field(TableNo)));

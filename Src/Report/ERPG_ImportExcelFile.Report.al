@@ -252,8 +252,8 @@ report 68760 "ERPG Import ExcelFile"
 
             RecordRef_.GetTable(GenJournalLine);
             HandleFieldDefault();
-
-            NextDocno := IncStr(NextDocno);
+            if not ERP_ExcelImportSetup.SameDocNoAllLines then
+                NextDocno := IncStr(NextDocno);
             NextLine += 10000;
             repeat
                 HandleField(TempExcelBuffer."Column No.", TempExcelBuffer."Cell Value as Text");
@@ -284,8 +284,8 @@ report 68760 "ERPG Import ExcelFile"
 
             RecordRef_.GetTable(JobJournalLine);
             HandleFieldDefault();
-
-            NextDocno := IncStr(NextDocno);
+            if not ERP_ExcelImportSetup.SameDocNoAllLines then
+                NextDocno := IncStr(NextDocno);
             NextLine += 10000;
             repeat
                 HandleField(TempExcelBuffer."Column No.", TempExcelBuffer."Cell Value as Text");
@@ -316,8 +316,8 @@ report 68760 "ERPG Import ExcelFile"
 
             RecordRef_.GetTable(ItemJournalLine);
             HandleFieldDefault();
-
-            NextDocno := IncStr(NextDocno);
+            if not ERP_ExcelImportSetup.SameDocNoAllLines then
+                NextDocno := IncStr(NextDocno);
             NextLine += 10000;
             repeat
                 HandleField(TempExcelBuffer."Column No.", TempExcelBuffer."Cell Value as Text");

@@ -76,6 +76,7 @@ page 68760 "ERPG Excel import Setup"
                     ApplicationArea = All;
                     ToolTip = 'Specify which dato to use in the journal, in import', Comment = 'DAN="Angiver bogføringsdato der benyttes i kladde, ved import"';
                 }
+                field(SameDocNoAllLines; Rec.SameDocNoAllLines) { ApplicationArea = All; ToolTip = 'Specify if all lines need to have same Document No.';}
             }
             part("Excel import lines Gen.Jnlline"; "ERPG Excelimp.lines Setupline")
             {
